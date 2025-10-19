@@ -80,7 +80,7 @@ All activity and security logs are forwarded to Log Analytics Workspace: loganal
 
 
 | Challenge                                               | Solution & Outcome                                                                                            
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|---------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Ensuring storage accounts enforce secure transfer       | Implemented the built-in Azure Policy “Require secure transfer” to automatically enforce HTTPS across all storage accounts, ensuring data-in-transit protection and full compliance.                                       |
 | Integrating Defender alerts with centralized monitoring | Configured diagnostic settings for VMs, Storage, and SQL Database to forward all security alerts and logs to the Log Analytics workspace (`loganalysmonitoring`), enabling centralized visibility and actionable insights. |
 | Blueprint assignment requiring elevated permissions     | Assigned appropriate RBAC roles to the blueprint contributor, enabling successful deployment of policies and resources while maintaining controlled access.                                                                |
